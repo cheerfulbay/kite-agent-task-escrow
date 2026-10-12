@@ -1,0 +1,30 @@
+{
+  "name": "@kiteai/agent-task-escrow",
+  "version": "1.0.0",
+  "description": "Autonomous Agent task marketplace milestone escrow & x402 streaming settlement vault on Kite Chain",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run"
+  },
+  "keywords": [
+    "kiteai",
+    "agent-escrow",
+    "task-marketplace",
+    "x402",
+    "milestone-settlement",
+    "web3"
+  ],
+  "author": "cheerfulbay",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "viem": "^2.21.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "typescript": "^5.5.2",
+    "vitest": "^1.6.0"
+  }
+}
